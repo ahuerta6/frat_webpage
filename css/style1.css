@@ -12,7 +12,7 @@
 {
     float: none;
     width: 100%;
-    background-color: navy;
+    background-color: #fff;
     margin-bottom: 10px;
 }
 .item.list-group-item:nth-of-type(odd):hover,.item.list-group-item:hover
@@ -54,4 +54,8 @@
 .list-group-item-text
 {
     margin: 0 0 11px;
+}
+
+.bg-primary{
+    background-color: navy;
 }
