@@ -2857,8 +2857,8 @@ textarea.form-control-lg {
   --bs-btn-active-border-color: #148d75;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   --bs-btn-disabled-color: #fff;
-  --bs-btn-disabled-bg: #1abc9c;
-  --bs-btn-disabled-border-color: #1abc9c;
+  --bs-btn-disabled-bg:#ffd700;
+  --bs-btn-disabled-border-color: #ffd700;
 }
 
 .btn-secondary {
