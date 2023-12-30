@@ -173,16 +173,6 @@ figcaption {
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
-a {
-	text-decoration: none;
-	color: yellow;
-	border-bottom: 4px solid magenta;
-	font-weight: bold;
-}
-a:hover {
-	background: magenta;
-	border-bottom: 4px solid #0ebeff;
-}
 
 @media screen and (min-width: 768px) {
 	body {
