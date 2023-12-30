@@ -11045,6 +11045,7 @@ html {
   background-color: #19314E;
 }
 
+/* News style */
 html {
 	font-size: 10px;
 }
@@ -11227,50 +11228,4 @@ a {
 a:hover {
 	background: magenta;
 	border-bottom: 4px solid #0ebeff;
-}
-
-@media screen and (min-width: 768px) {
-	body {
-		max-width: 65rem;
-	}
-	.headline {
-		font-size: 12.4rem;
-	}
-	.subhead {
-		font-size: 3.6rem;
-	}
-	.tag {
-		margin-right: 2rem;
-		font-size: 1.6rem;
-	}
-	aside {
-		font-size: 3.6rem;
-	}
-	.article-para-1 {
-		font-size: 2.4rem;
-	}
-}
-@media screen and (min-width: 1024px) {
-	body {
-		max-width: 90rem;
-	}
-	.article-meta {
-		flex-direction: row;
-		align-items: center;
-	}
-	.author {
-		margin-bottom: unset;
-	}
-	.article-row {
-		flex-direction: row;
-	}
-	.article-col-1,
-	.article-col-2 {
-		margin-right: 2rem;
-	}
-}
-@media screen and (min-width: 1200px) {
-	body {
-		max-width: 102.4rem;
-	}
 }
