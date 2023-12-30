@@ -1758,3 +1758,13 @@ figcaption {
  color: #fff !important;
  background-color: RGBA(26, 188, 156, var(--bs-bg-opacity, 1)) !important;
 }
+
+.bg-primary {
+ --bs-bg-opacity: 1;
+ background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.bg-secondary {
+ --bs-bg-opacity: 1;
+ background-color: rgba(var(--bs-secondary-rgb), var(--bs-bg-opacity)) !important;
+}
