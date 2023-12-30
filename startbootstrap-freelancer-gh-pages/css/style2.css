@@ -227,3 +227,25 @@ a:hover {
 		max-width: 102.4rem;
 	}
 }
+
+.footer {
+ padding-top: 5rem;
+ padding-bottom: 5rem;
+ background-color: #1F3D61;
+ color: #fff;
+}
+
+.copyright {
+ background-color: #19314E;
+}
+
+.footer {
+ padding-top: 5rem;
+ padding-bottom: 5rem;
+ background-color: #1F3D61;
+ color: #fff;
+}
+
+.copyright {
+ background-color: #19314E;
+}
