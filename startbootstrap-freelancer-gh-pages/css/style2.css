@@ -440,7 +440,7 @@ figcaption {
 .navbar > .container-xl,
 .navbar > .container-xxl {
  display: flex;
- flex-wrap: inherit;
+ flex-wrap:wrap;
  align-items: center;
  justify-content: space-between;
 }
