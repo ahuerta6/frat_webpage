@@ -1748,6 +1748,16 @@ figcaption {
  margin-left: auto !important;
 }
 
+.mx-0 {
+ margin-right: 0 !important;
+ margin-left: 0 !important;
+}
+
+.mx-lg-1 {
+ margin-right: 0.25rem !important;
+ margin-left: 0.25rem !important;
+}
+
 /* bg */
 .text-bg-secondary {
  color: #fff !important;
