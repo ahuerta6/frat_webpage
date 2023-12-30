@@ -1733,3 +1733,23 @@ figcaption {
     max-width: 1320px;
   }
 }
+
+/* text-upper */
+.text-uppercase {
+  text-transform: uppercase !important;
+}
+
+.collapse:not(.show) {
+ display: none;
+}
+
+/* ms */
+.ms-auto {
+ margin-left: auto !important;
+}
+
+/* bg */
+.text-bg-secondary {
+ color: #fff !important;
+ background-color: RGBA(255, 215, 0, var(--bs-bg-opacity, 1)) !important;
+}
