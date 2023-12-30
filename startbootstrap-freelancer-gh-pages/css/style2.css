@@ -1838,3 +1838,11 @@ figcaption {
  --bs-code-color: #d63384;
  --bs-highlight-bg: #fff3cd;
 }
+
+.fixed-top {
+ position: fixed;
+ top: 0;
+ right: 0;
+ left: 0;
+ z-index: 1030;
+}
