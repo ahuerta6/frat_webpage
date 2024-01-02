@@ -1916,22 +1916,41 @@ figcaption {
  margin-top: var(--bs-gutter-y);
 }
 
-.mb-4 {
- margin-bottom: 1.5rem !important;
+.row-cols-auto > * {
+ flex: 0 0 auto;
+ width: auto;
 }
 
-.container,
-.container-fluid,
-.container-xxl,
-.container-xl,
-.container-lg,
-.container-md,
-.container-sm {
-  --bs-gutter-x: 1.5rem;
-  --bs-gutter-y: 0;
-  width: 100%;
-  padding-right: calc(var(--bs-gutter-x) * 0.5);
-  padding-left: calc(var(--bs-gutter-x) * 0.5);
-  margin-right: auto;
-  margin-left: auto;
+.row-cols-1 > * {
+ flex: 0 0 auto;
+ width: 100%;
+}
+
+.row-cols-2 > * {
+ flex: 0 0 auto;
+ width: 50%;
+}
+
+.row-cols-3 > * {
+ flex: 0 0 auto;
+ width: 33.3333333333%;
+}
+
+.row-cols-4 > * {
+ flex: 0 0 auto;
+ width: 25%;
+}
+
+.row-cols-5 > * {
+ flex: 0 0 auto;
+ width: 20%;
+}
+
+.row-cols-6 > * {
+ flex: 0 0 auto;
+ width: 16.6666666667%;
+}
+
+.mb-4 {
+ margin-bottom: 1.5rem !important;
 }
