@@ -1871,3 +1871,35 @@ figcaption {
  left: 0;
  z-index: 1030;
 }
+
+/* footer */
+.col-lg-4 {
+ flex: 0 0 auto;
+ width: 33.33333333%;
+}
+
+.mb-5 {
+ margin-bottom: 3rem !important;
+}
+
+.mb-lg-0 {
+ margin-bottom: 0 !important;
+}
+
+.copyright {
+ background-color: #19314E;
+}
+
+.py-4 {
+ padding-top: 1.5rem !important;
+ padding-bottom: 1.5rem !important;
+}
+
+.text-center {
+ text-align: center !important;
+}
+
+.text-white {
+ --bs-text-opacity: 1;
+ color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
+}
