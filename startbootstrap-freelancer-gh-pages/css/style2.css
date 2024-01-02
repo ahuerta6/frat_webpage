@@ -1915,3 +1915,7 @@ figcaption {
  padding-left: calc(var(--bs-gutter-x) * 0.5);
  margin-top: var(--bs-gutter-y);
 }
+
+.mb-4 {
+ margin-bottom: 1.5rem !important;
+}
