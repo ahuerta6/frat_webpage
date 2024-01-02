@@ -2011,7 +2011,7 @@ figcaption {
  align-items: center;
  max-width: 720px;
  margin: 0 auto;
- height: 100vh;
+ /*height: 100vh;*/
  list-style: none;
 }
 
