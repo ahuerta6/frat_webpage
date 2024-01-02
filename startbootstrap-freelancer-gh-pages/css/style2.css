@@ -2049,5 +2049,5 @@ figcaption {
 }
 
 .box_textshadow {
- text-shadow: 2px 2px 0px #000; /* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
+ text-outline: 2px 2px 0px #000; /* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
 }
