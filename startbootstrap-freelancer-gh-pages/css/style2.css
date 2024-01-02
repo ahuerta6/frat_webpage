@@ -1903,3 +1903,12 @@ figcaption {
  --bs-text-opacity: 1;
  color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
 }
+
+.lead {
+ font-size: 1.25rem;
+ font-weight: 300;
+}
+
+.mb-0 {
+ margin-bottom: 0 !important;
+}
