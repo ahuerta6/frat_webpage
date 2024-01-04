@@ -3760,6 +3760,7 @@ textarea.form-control-lg {
   justify-content: space-between;
   padding: var(--bs-navbar-padding-y) var(--bs-navbar-padding-x);
   transition: top 0.3s;
+  top: 0;
 }
 .navbar > .container,
 .navbar > .container-fluid,
