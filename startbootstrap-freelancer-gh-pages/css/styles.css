@@ -3759,7 +3759,7 @@ textarea.form-control-lg {
   align-items: center;
   justify-content: space-between;
   padding: var(--bs-navbar-padding-y) var(--bs-navbar-padding-x);
-  transition: top 0.3s;
+  transition: top 0.5s;
   top: 0;
 }
 .navbar > .container,
