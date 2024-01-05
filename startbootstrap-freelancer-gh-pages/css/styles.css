@@ -10951,6 +10951,7 @@ html {
   #mainNav.navbar-shrink {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
+    transition: top 0.5s;
     top: -80px;
   }
   #mainNav.navbar-shrink .navbar-brand {
