@@ -41,16 +41,4 @@ window.addEventListener('DOMContentLoaded', event => {
             }
         });
     });
-
-    /*hides nav bar when scrolling down, and shows when scrolling up*/
-var prevScrollpos = window.pageYOffset;
-window.onscroll = function() {
-  var currentScrollPos = window.pageYOffset;
-  if (prevScrollpos > currentScrollPos) {
-    document.getElementById("navbar").style.top = "0";
-  } else {
-    document.getElementById("navbar").style.top = "-200px";
-  }
-  prevScrollpos = currentScrollPos;
-} 
 });
