@@ -406,7 +406,7 @@ figcaption {
 .navbar {
  --bs-navbar-padding-x: 0;
  --bs-navbar-padding-y: 0.5rem;
- --bs-navbar-color: rgba(0, 0, 0, 0.55);
+ --bs-navbar-color: rgba(255, 255, 255);
  --bs-navbar-hover-color: rgba(0, 0, 0, 0.7);
  --bs-navbar-disabled-color: rgba(0, 0, 0, 0.3);
  --bs-navbar-active-color: rgba(0, 0, 0, 0.9);
@@ -1776,7 +1776,7 @@ figcaption {
 }
 
 .bg-secondary {
- --bs-bg-opacity: 1;
+ --bs-bg-opacity: .3;
  background-color: rgba(var(--bs-secondary-rgb), var(--bs-bg-opacity)) !important;
 }
 
