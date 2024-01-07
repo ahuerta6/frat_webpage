@@ -2025,14 +2025,9 @@ figcaption {
 }
 
 .menu li {
- width: 125px;
- height: 50px;
  transition: background-position-x 0.9s linear;
- text-align: center;
 
  a {
-   font-size: 22px;
-   color: #777;
    text-decoration: none;
    transition: all 0.45s;
  }
