@@ -2025,6 +2025,8 @@ figcaption {
 }
 
 .menu li {
+ width: 125px;
+ height: 50px;
  transition: background-position-x 0.9s linear;
 
  a {
@@ -2040,19 +2042,15 @@ figcaption {
  &:hover a {
    color: #d94f5c;
  }
-
- &:not(:last-child) {
-   margin-right: 30px;
- }
 }
 
+/* the slide effect */
 @keyframes line {
  0% {
    background-position-x: 390px;
  }
 }
 
-/* the slide effect */
 @keyframes slideIn {
   0% {
     transform: translateX(500px) scale(.2);
