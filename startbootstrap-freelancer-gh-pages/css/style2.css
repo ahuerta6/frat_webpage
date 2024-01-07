@@ -2016,7 +2016,6 @@ figcaption {
 /* nav animation*/
 .menu {
  display: flex;
- align-items: center;
  max-width: 720px;
  margin: 0 auto;
  /*height: 100vh;*/
