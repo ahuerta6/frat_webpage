@@ -2057,7 +2057,7 @@ figcaption {
  }
 }
 
-/* nav effect */
+/* the slide effect */
 @keyframes slideIn {
   0% {
     transform: translateX(500px) scale(.2);
@@ -2084,3 +2084,4 @@ figcaption {
     transform: translateX(0px);
   }
 }
+
