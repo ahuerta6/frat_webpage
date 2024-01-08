@@ -260,7 +260,6 @@ figcaption {
  #mainNav .navbar-brand {
    font-size: 1.75em;
    transition: font-size 0.3s;
-   width: 25px;
  }
  #mainNav .navbar-nav {
    margin-top: 0;
@@ -280,6 +279,13 @@ figcaption {
  #mainNav.navbar-shrink .navbar-brand {
    font-size: 1.5em;
  }
+}
+
+/* img width when screen shrinks */
+@media (min-width: 650px) {
+  .navbar-brand {
+    width: 25px;
+  }
 }
 
 /* navbar */
