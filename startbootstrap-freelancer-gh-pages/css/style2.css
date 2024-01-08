@@ -452,6 +452,7 @@ figcaption {
  text-decoration: none;
  white-space: nowrap;
  width: 7500px;
+ height: auto;
  display: block;
  margin-right: auto;
 }
