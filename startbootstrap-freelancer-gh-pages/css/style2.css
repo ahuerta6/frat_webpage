@@ -282,7 +282,7 @@ figcaption {
 }
 
 /* img width when screen shrinks */
-@media (max-width: 650px) {
+@media (max-width: 996px) {
   .navbar-brand {
     display: none;
   }
