@@ -451,7 +451,9 @@ figcaption {
  color: var(--bs-navbar-brand-color);
  text-decoration: none;
  white-space: nowrap;
- width: 100px;
+ width: 50%;
+ display: block;
+ margin-right: auto;
 }
 .navbar-brand:hover, .navbar-brand:focus {
  color: var(--bs-navbar-brand-hover-color);
