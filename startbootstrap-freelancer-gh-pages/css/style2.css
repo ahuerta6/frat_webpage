@@ -431,7 +431,7 @@ figcaption {
  --bs-navbar-toggler-border-radius: 0.5rem;
  --bs-navbar-toggler-focus-width: 0.25rem;
  --bs-navbar-toggler-transition: box-shadow 0.15s ease-in-out;
- position: relative;
+ position: fixed;
  display: flex;
  flex-wrap: wrap;
  align-items: center;
@@ -2085,6 +2085,14 @@ figcaption {
   }
   100% {
     transform: translateX(0px);
+  }
+}
+
+/*hide nav bar when scroll down*/
+@media (min-width: 992px) {
+  .navbar-shrink {
+    transition: top 0.5s;
+    top: -80px;
   }
 }
 
