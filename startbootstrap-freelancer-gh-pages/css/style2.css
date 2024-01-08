@@ -254,7 +254,7 @@ figcaption {
 
 @media (min-width: 992px) {
  #mainNav {
-   padding-top: 1.5rem;
+
    transition: padding-top 0.3s, padding-bottom 0.3s;
  }
  #mainNav .navbar-brand {
@@ -275,6 +275,8 @@ figcaption {
  #mainNav.navbar-shrink {
    padding-top: 0.5rem;
    padding-bottom: 0.5rem;
+   transition: top 0.5s;
+   top: -80px;
  }
  #mainNav.navbar-shrink .navbar-brand {
    font-size: 1.5em;
@@ -2090,10 +2092,5 @@ figcaption {
 }
 
 /*hide nav bar when scroll down*/
-@media (min-width: 992px) {
-  .navbar-shrink {
-    transition: top 0.5s;
-    top: -80px;
-  }
-}
+
 
