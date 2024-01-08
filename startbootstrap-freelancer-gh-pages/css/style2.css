@@ -260,6 +260,7 @@ figcaption {
  #mainNav .navbar-brand {
    font-size: 1.75em;
    transition: font-size 0.3s;
+   width: 25px;
  }
  #mainNav .navbar-nav {
    margin-top: 0;
