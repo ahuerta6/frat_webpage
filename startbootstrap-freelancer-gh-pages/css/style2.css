@@ -451,7 +451,7 @@ figcaption {
  color: var(--bs-navbar-brand-color);
  text-decoration: none;
  white-space: nowrap;
- width: 50%;
+ width: 7500px;
  display: block;
  margin-right: auto;
 }
