@@ -641,6 +641,20 @@ progress {
   padding-right: calc(var(--bs-gutter-x) * 0.5);
   padding-left: calc(var(--bs-gutter-x) * 0.5);
   margin-left: auto;
+  position: relative;
+}
+
+.container1{
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  padding-right: calc(var(--bs-gutter-x) * 0.5);
+  padding-left: calc(var(--bs-gutter-x) * 0.5);
+  margin-left: auto;
+  position: relative;
+  justify-content: space-around;
+  align-items: center;
+  animation: expand .8s ease forwards;
+  transition: all .8s ease;
 }
 
 @media (min-width: 576px) {
