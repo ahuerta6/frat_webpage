@@ -629,6 +629,7 @@ progress {
   color: #6c757d;
 }
 
+/* Container   width: 100%; margin-right: auto;*/
 .container,
 .container-fluid,
 .container-xxl,
@@ -641,7 +642,7 @@ progress {
   padding-right: calc(var(--bs-gutter-x) * 0.5);
   padding-left: calc(var(--bs-gutter-x) * 0.5);
   margin-left: auto;
-  position: relative;
+  margin-top: 10px;
 }
 
 .container1{
@@ -670,6 +671,11 @@ progress {
 @media (min-width: 992px) {
   .container-lg, .container-md, .container-sm, .container {
     max-width: 960px;
+  }
+}
+@media (min-width: 996px) {
+  .navbar-brand {
+    display: none;
   }
 }
 @media (min-width: 1200px) {
