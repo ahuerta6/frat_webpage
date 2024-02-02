@@ -3734,6 +3734,7 @@ textarea.form-control-lg {
   flex-basis: 0;
   flex-grow: 1;
   text-align: center;
+  font-size: 1.6rem;
 }
 
 .nav-fill .nav-item .nav-link,
