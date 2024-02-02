@@ -3734,7 +3734,6 @@ textarea.form-control-lg {
   flex-basis: 0;
   flex-grow: 1;
   text-align: center;
-  font-size: 1.6rem;
 }
 
 .nav-fill .nav-item .nav-link,
@@ -10741,6 +10740,7 @@ html {
 }
 #mainNav .navbar-nav li.nav-item a.nav-link {
   color: #fff;
+  font-size: 1.6rem;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
   color: #FFD700;
