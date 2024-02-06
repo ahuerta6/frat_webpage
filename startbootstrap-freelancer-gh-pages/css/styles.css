@@ -10377,7 +10377,6 @@ html {
 
 @media (min-width: 992px) {
   #mainNav {
-    padding-top: 1.5rem;
     transition: padding-top 0.3s, padding-bottom 0.3s;
     margin-top: 0;
   }
