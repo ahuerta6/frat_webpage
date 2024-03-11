@@ -1,0 +1,129 @@
+doctype html
+head
+  meta(charset='utf-8')
+  meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+  meta(name='Fraternity Website', content='')
+  meta(name='Avery Huerta', content='')
+  title Pi Kappa Phi
+  // Favicon
+  script(src='https://cdn.jsdelivr.net/npm/vue/dist/vue.js')
+  link(rel='icon', type='image/x-icon', href='assets/PKP-logo.ico')
+  // Font Awesome icons (free version)
+  script(src='https://use.fontawesome.com/releases/v6.3.0/js/all.js', crossorigin='anonymous')
+  // Google fonts
+  link(href='https://fonts.googleapis.com/css?family=Montserrat:400,700', rel='stylesheet', type='text/css')
+  link(href='https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic', rel='stylesheet', type='text/css')
+  // Core theme CSS (includes Bootstrap)
+  link(href='css/style3.scss', rel='stylesheet')
+// Navigation
+nav#mainNav.navbar.navbar-expand-lg.navbar-light.fixed-top.bg-secondary.navbar-shrink
+  .container
+    a.navbar-brand(href='index.html')
+      img(src='images/PKP-logo.png', alt='Pi Kappa Phi')
+    button.navbar-toggler.text-uppercase.font-weight-bold.bg-primary.text-white.rounded(type='button', data-bs-toggle='collapse', data-bs-target='#navbarResponsive', aria-controls='navbarResponsive', aria-expanded='false', aria-label='Toggle navigation')
+      i.fas.fa-bars
+    #navbarResponsive.collapse.navbar-collapse
+      ul.navbar-nav.ms-auto.menu
+        li.nav-item
+          a.nav-link(href='index.html') Home
+        li.nav-item
+          a.nav-link(href='about.html') About
+        li.nav-item
+          a.nav-link(href='brothers.html') Brothers
+        li.nav-item
+          a.nav-link(href='news.html') News
+        li.nav-item
+          a.nav-link(href='family.html') Family Tree
+//Family Tree
+#wrapper
+  span.label Root
+  .branch.lv1
+    .entry
+      span.label Entry-1
+      .branch.lv2
+        .entry
+          span.label Entry-1-1
+          .branch.lv3
+            .entry.sole
+              span.label Entry-1-1-1
+        .entry
+          span.label Entry-1-2
+          .branch.lv3
+            .entry.sole
+              span.label Entry-1-2-1
+        .entry
+          span.label Entry-1-3
+          .branch.lv3
+            .entry.sole
+              span.label Entry-1-3-1
+    .entry
+      span.label Entry-2
+    .entry
+      span.label Entry-3
+      .branch.lv2
+        .entry
+          span.label Entry-3-1
+        .entry
+          span.label Entry-3-2
+        .entry
+          span.label Entry-3-3
+          .branch.lv3
+            .entry
+              span.label Entry-3-3-1
+            .entry
+              span.label Entry-3-3-2
+              .branch.lv4
+                .entry
+                  span.label Entry-3-3-2-1
+                .entry
+                  span.label Entry-3-3-2-2
+            .entry
+              span.label Entry-3-3-3
+        .entry
+          span.label Entry-3-4
+    .entry
+      span.label Entry-4
+    .entry
+      span.label Entry-5
+// Footer
+footer.footer.text-center
+  .container1
+    .row
+      // Footer Location
+      .col-lg-4.mb-5.mb-lg-0
+        h4.text-uppercase.mb-4 Location
+        p.lead.mb-0
+          | Quad, S Wabash Ave
+          br
+          |                             Chicago, IL 60616
+      // Footer Social Icons
+      .col-lg-4.mb-5.mb-lg-0
+        h4.text-uppercase.mb-4 Around the Web
+        a.btn.btn-outline-light.btn-social.mx-1(href='https://www.facebook.com/pkp.historian/')
+          i.fab.fa-fw.fa-facebook-f
+        a.btn.btn-outline-light.btn-social.mx-1(href='https://twitter.com/iitpikapps')
+          i.fab.fa-fw.fa-twitter
+        a.btn.btn-outline-light.btn-social.mx-1(href='https://www.linkedin.com/in/iitpikapps/')
+          i.fab.fa-fw.fa-linkedin-in
+        a.btn.btn-outline-light.btn-social.mx-1(href='https://www.instagram.com/iitpikapps/')
+          i.fab.fa-fw.fa-instagram
+      // Footer About Text
+      .col-lg-4.mb-5.mb-lg-0
+        h4.text-uppercase.mb-4 Questions
+        p.lead.mb-0
+          | Contact:
+          br
+          |                             webmaster@iitpikapps.com
+// Copyright Section
+.copyright.py-4.text-center.text-white
+  .container1
+    small Copyright &copy; Pi Kappa Phi 2023
+// Bootstrap core JS
+script(src='https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js')
+// Core theme JS
+script(src='js/scripts.js')
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+// * *                               SB Forms JS                               * *
+// * * Activate your form at https://startbootstrap.com/solution/contact-forms * *
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+script(src='https://cdn.startbootstrap.com/sb-forms-latest.js')
