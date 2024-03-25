@@ -1730,7 +1730,7 @@ button:not(:disabled),
   top: 0;
   margin-left: 25px;
  }
- .navbar-brand:hover, .navbar-brand:focus {
+.navbar-brand:hover, .navbar-brand:focus {
   color: var(--bs-navbar-brand-hover-color);
  }
  
