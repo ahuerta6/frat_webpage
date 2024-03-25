@@ -10967,19 +10967,6 @@ html {
   box-sizing: border-box;
 }
 
-body {
-  min-width: 1200px;
-  margin: 0;
-  padding: 50px;
-  color: #eee9dc;
-  font: 16px Verdana, sans-serif;
-  background: #2e6ba7;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
-
 #wrapper {
   position: relative;
 }
